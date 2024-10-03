@@ -1,0 +1,9 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "main.js",
+  "repository": "https://github.com/ChHsiching/electron-app",
+  "author": "ChHsich",
+  "license": "MIT"
+}
