@@ -1,0 +1,65 @@
+# Node modules
+node_modules/
+.pnp/
+.pnp.js
+
+# Yarn lock file
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+yarn-error.log
+.yarn-integrity
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Electron build files
+/dist/
+/out/
+/build/
+/*.map
+
+# Optional npm cache directory
+.npm/
+
+# Mac-specific files
+*.DS_Store
+
+# Windows-specific files
+Thumbs.db
+ehthumbs.db
+
+# IDE specific files (e.g., VSCode)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# TypeScript build outputs
+dist/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Sentry sourcemaps
+sentry-debug/
+
