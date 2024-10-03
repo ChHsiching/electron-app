@@ -1,44 +1,51 @@
 # Electron Hello World Demo
 
-这是一个基于 Electron 框架的 "Hello World" 项目，使用 Yarn 进行包管理。
+This is a simple "Hello World" application built with Electron, using Yarn for package management.
 
-## 目录
+## Table of Contents
 
-- [安装依赖](#安装依赖)
-- [启动项目](#启动项目)
-- [项目结构](#项目结构)
-- [依赖项](#依赖项)
+- [Installation](#installation)
+- [Running the App](#running-the-app)
+- [Project Structure](#project-structure)
+- [Dependencies](#dependencies)
 
-## 安装依赖
+## Installation
 
-首先，确保你已经安装了 [Yarn](https://yarnpkg.com/) 和 [Node.js](https://nodejs.org/)。  
-然后在项目根目录下运行以下命令来安装所有依赖：
+Make sure you have [Yarn](https://yarnpkg.com/) and [Node.js](https://nodejs.org/) installed.
+
+To install the necessary dependencies, run the following command in the project root directory:
 
 ```bash
-yarn
+yarn install
 ```
 
-## 启动项目
+## Running the App
 
-在安装依赖后，你可以通过以下命令启动 Electron 应用：
+After the dependencies are installed, you can start the Electron application with the following command:
 
 ```bash
 yarn start
 ```
 
-此命令将启动 Electron 并显示 "Hello World" 窗口。
+This will launch the Electron application, displaying a "Hello World" window.
 
-## 项目结构
+## Project Structure
+
+The project files are organized as follows:
 
 ```bash
-├── package.json    # 项目的配置文件，包括依赖项和脚本
-├── main.js         # Electron 主进程代码
-├── index.html      # 显示的 HTML 页面
-└── renderer.js     # 渲染进程的 JavaScript 代码
+├── package.json    # Project configuration, scripts, and dependencies
+├── main.js         # Main process for Electron
+├── index.html      # HTML file displayed in the app window
+└── renderer.js     # JavaScript for the renderer process
 ```
 
-## 依赖项
+## Dependencies
 
-- [Electron](https://www.electronjs.org/): 用于构建跨平台桌面应用的框架。
-- [Yarn](https://yarnpkg.com/): 用于管理项目的包管理器。
+- [Electron](https://www.electronjs.org/): A framework for building cross-platform desktop applications with web technologies.
+- [Yarn](https://yarnpkg.com/): A fast, reliable, and secure dependency manager.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
 
